@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "veloxpm"
-version = "2025.6012a0"
+version = "2026.0503a0"
 description = "CUDA-accelerated matrix exponential bindings for exp(H) and exp(iH)."
 requires-python = ">=3.10"
 dependencies = ["numpy"]
