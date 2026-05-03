@@ -8,6 +8,7 @@ from scipy.linalg import expm
 from veloxpm import ExpMatComplex64
 
 
+
 SIZES = [128, 256, 512, 1024, 2048, 4096]
 SEED = 20260427
 
@@ -52,6 +53,7 @@ def main() -> None:
             f"{veloxpm_time:8.3f} | "
             f"{scipy_time:7.3f} | "
             f"{speedup:6.1f}x | "
+
             f"{rel_fro:13.3e} | "
             f"{max_abs:13.3e}"
         )
