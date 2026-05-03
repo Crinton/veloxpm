@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "veloxpm"
+version = "2025.6012a0"
+description = "CUDA-accelerated matrix exponential bindings for exp(H) and exp(iH)."
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+
+[tool.setuptools.packages.find]
+where = ["python"]

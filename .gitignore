@@ -1,0 +1,9 @@
+**/build/
+**/.pytest_cache/
+**/__pycache__/
+**/__pycache__/
+**/dist/
+**/fastexpm.egg-info/
+**/.benchmarks/
+**/.claude/
+**/*.egg-info/
