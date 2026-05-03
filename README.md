@@ -27,10 +27,6 @@ It provides two execution paths:
 From the project root:
 
 ```bash
-<<<<<<< HEAD
-=======
-cd veloxpm
->>>>>>> 6397c6f2d9f5a7891b1251d0cc03b36d0e15d5ce
 python setup.py bdist_wheel
 pip install dist/veloxpm-2025.6012a0-*.whl
 ```
@@ -40,10 +36,6 @@ The generated wheel is written to `dist/`.
 ### Option 2: Install directly with setuptools
 
 ```bash
-<<<<<<< HEAD
-=======
-cd veloxpm
->>>>>>> 6397c6f2d9f5a7891b1251d0cc03b36d0e15d5ce
 python setup.py install
 ```
 
