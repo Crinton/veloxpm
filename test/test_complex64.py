@@ -8,7 +8,6 @@ from scipy.linalg import expm
 from veloxpm import ExpMatComplex64
 
 
-
 SIZES = [128, 256, 512, 1024, 2048, 4096]
 SEED = 20260427
 
