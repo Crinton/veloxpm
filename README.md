@@ -119,12 +119,8 @@ exp_ih = expm(1j * H_imag)
 Run the packaged tests with:
 
 ```bash
-<<<<<<< HEAD
 cd ./test
 python test_complex64.py
-=======
-cd veloxpm/tests
->>>>>>> 6397c6f2d9f5a7891b1251d0cc03b36d0e15d5ce
 ```
 
 The main functional test file is:
